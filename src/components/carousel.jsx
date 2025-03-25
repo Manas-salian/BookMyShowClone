@@ -12,7 +12,7 @@ function CarouselComponent() {
         <Carousel>
             <Carousel.Item>
                 <img
-                    className="d-block w-100"
+                    class="d-block w-100 rounded-3"
                     style={imageStyle}
                     src="https://assets-in-gm.bmscdn.com/promotions/cms/creatives/1742876499017_1240x300travisscott2025regionalnewdelhipresale.jpg"
                     alt="First slide"
@@ -20,7 +20,7 @@ function CarouselComponent() {
             </Carousel.Item>
             <Carousel.Item>
                 <img
-                    className="d-block w-100"
+                    class="d-block w-100 rounded-3"
                     style={imageStyle}
                     src="https://assets-in-gm.bmscdn.com/promotions/cms/creatives/1726036566435_playcardnewweb.jpg"
                     alt="Second slide"
@@ -28,7 +28,7 @@ function CarouselComponent() {
             </Carousel.Item>
             <Carousel.Item>
                 <img
-                    className="d-block w-100"
+                    class="d-block w-100 rounded-3"
                     style={imageStyle}
                     src="https://assets-in-gm.bmscdn.com/promotions/cms/creatives/1742803355865_anoraweb.jpg"
                     alt="Third slide"

@@ -1,0 +1,21 @@
+.cards {
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 20px;
+    padding: 20px;
+    overflow-x: auto;
+    overflow-y: hidden;
+    width: 100%;
+    scrollbar-width: none;  /* Firefox */
+    -ms-overflow-style: none;  /* IE and Edge */
+}
+
+.cards::-webkit-scrollbar {
+    display: none;  /* Chrome, Safari and Opera */
+}
+
+
+.cards > * {
+    flex: 0 0 auto; 
+    width: 150px;   
+}

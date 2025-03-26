@@ -19,3 +19,43 @@
     flex: 0 0 auto; 
     width: 150px;   
 }
+
+.banner-section {
+    width: 100%;
+    padding: 20px 0;
+    background-color: #fff;
+}
+
+.banner-section .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.banner-image {
+    width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+.premiere-section {
+    min-height: 100%;
+    width: 100%;
+}
+
+.premiere-section h3,
+.premiere-section h5 {
+    margin-left: 20px;
+}
+
+.premiere-section .container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.premiere-section .banner-image {
+    width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+}
